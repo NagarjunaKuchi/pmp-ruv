@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.523 sec <<< FAILURE!
+run(io.mosip.pmp.ruv.ResourceUrlValidator)  Time elapsed: 7.243 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at io.mosip.pmp.ruv.ResourceUrlValidator.run(ResourceUrlValidator.java:22)
+

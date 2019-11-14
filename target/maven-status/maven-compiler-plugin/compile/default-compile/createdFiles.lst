@@ -1,0 +1,6 @@
+io\mosip\pmp\ruv\validate\ApiUrlValidation.class
+io\mosip\pmp\ruv\resources\PmpResources.class
+io\mosip\pmp\ruv\ResourceUrlValidator.class
+io\mosip\pmp\ruv\validate\ResultSet.class
+io\mosip\pmp\ruv\validate\ResultSet$resultSet.class
+io\mosip\pmp\ruv\validate\Validator.class

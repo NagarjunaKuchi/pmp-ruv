@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <parameter name="stopOnError" value="false"/>
+  <parameter name="scenarioFilter" value="random"/>
+  <test thread-count="1" verbose="0" name="test1(failed)">
+    <classes>
+      <class name="io.mosip.pmp.ruv.ResourceUrlValidator">
+        <methods>
+          <include name="run"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- io.mosip.pmp.ruv.ResourceUrlValidator -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
